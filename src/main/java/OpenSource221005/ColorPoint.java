@@ -1,6 +1,8 @@
-package OpenSource220928;
+package OpenSource221005;
 
-public class ColorPoint extends Point{
+import OpenSource220928.Point;
+
+public class ColorPoint extends Point {
     private String color;
 
     public ColorPoint(int x, int y, String color) {

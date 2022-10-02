@@ -1,4 +1,4 @@
-package OpenSource220928;
+package OpenSource221005;
 
 class Shape { // 슈퍼 클래스
     public Shape next;

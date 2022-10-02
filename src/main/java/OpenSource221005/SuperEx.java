@@ -1,4 +1,6 @@
-package OpenSource220928;
+package OpenSource221005;
+
+import OpenSource221005.ColorPoint;
 
 public class SuperEx {
     public static void main(String[] args) {
