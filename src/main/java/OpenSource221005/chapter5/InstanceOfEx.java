@@ -1,4 +1,4 @@
-package OpenSource221005;
+package OpenSource221005.chapter5;
 
 class Person { }
 class Student extends Person { }

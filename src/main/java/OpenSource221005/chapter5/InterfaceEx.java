@@ -1,4 +1,4 @@
-package OpenSource221005;
+package OpenSource221005.chapter5;
 
 interface PhoneInterface {
     final int TIMEOUT = 10000;

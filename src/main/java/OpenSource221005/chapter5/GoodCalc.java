@@ -1,4 +1,4 @@
-package OpenSource221005;
+package OpenSource221005.chapter5;
 
 abstract class Calculator {
     public abstract int add(int a, int b);
