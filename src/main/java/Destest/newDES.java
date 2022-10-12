@@ -23,6 +23,7 @@ package Destest; /**
  * limitations under the License.
  */
 
+import java.math.BigInteger;
 import java.util.Arrays;
 
 /**
@@ -393,6 +394,10 @@ public class newDES {
             System.out.println(" c : " + c);
             System.out.println(" d : " + d);
 
+            String binaryc = Long.toBinaryString(c);
+            System.out.println(" binaryc : " + binaryc );
+            String binaryd = Long.toBinaryString(d);
+            System.out.println(" binaryd : " + binaryd );
             // join the two keystuff halves together.
             long cd = (c & 0xFFFFFFFFL) << 28 | (d & 0xFFFFFFFFL);
 
