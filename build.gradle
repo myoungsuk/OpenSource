@@ -4,9 +4,12 @@ plugins {
 
 group 'org.example'
 version '1.0-SNAPSHOT'
+ext.koala_version = '2.1.4'
+
 
 repositories {
     mavenCentral()
+    maven { url "https://jitpack.io" } // 코모란의 경우에만 추가.
 }
 
 dependencies {
